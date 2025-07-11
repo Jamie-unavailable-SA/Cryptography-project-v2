@@ -112,6 +112,8 @@ class OTPStore:
         
         return derive_key_from_otp(rec)
     
+# Testing
+    
 if __name__ == "__main__":
     print("[+] Generating OTP...")
     store = OTPStore()

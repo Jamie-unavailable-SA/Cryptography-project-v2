@@ -1,11 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox, scrolledtext
 from typing import Optional
-from sms.sms_sender import (
-    OTPRecord, EncryptedPacket,
-    generate_otp, derive_key_from_otp, verify_otp,
-    encrypt_message, decrypt_message, send_sms
-)
+from sms_sender import encrypt_message, OTPRecord, EncryptedPacket, generate_otp, derive_key_from_otp, verify_otp,decrypt_message, send_sms
 from tkinter.font import Font
 
 
